@@ -26,3 +26,4 @@ none, nada, aucune...
 Fork the project, create a new branch, make your changes, and open a pull request.
 
 We use [Clear code](http://introcs.cs.princeton.edu/java/11style/) writing guidelines.
+This tool can convert nicely to pdf [MarkdownToPdf](http://www.markdowntopdf.com/)
