@@ -12,7 +12,10 @@ curl -O https://github.com/christianbundy/readme-boilerplate.md
 git add README.md
 git commit -m "Add README Boilerplate"
 ```
-
+$$
+\ P_1=(X_1,Y_1)\\P_2=(X_2,Y_2)\\
+\Lambda=\frac{Y_2-Y_1}{X_2-X_1}\
+$$
 ## Usage
 
 Edit `README.md` with the name of your project, a description, installation instructions, usage instructions, how to get support, and how people can contribute to your project.
