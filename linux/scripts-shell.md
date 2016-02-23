@@ -1,4 +1,4 @@
-# Linux shell scripts
+# Linux shell scripts and aliases
 
 ## Alias scripts
 
