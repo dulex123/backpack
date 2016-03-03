@@ -1,7 +1,7 @@
 # README Boilerplate
 
+I use this backpack repo for my software engineering adventures!
 Change this readme as needed.
-A collection of best practices for a simple and informative README.
 
 ## Installation
 
