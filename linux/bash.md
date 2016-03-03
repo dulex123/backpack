@@ -23,7 +23,7 @@ Arguments within script are accessed with:
 * `$0` - path
 * `$#` - argument number
 * `$@` - list of arguments (with spaces)
-* 
+
 ```sh
 $ ./script.sh arg1 arg2 arg3 arg4       # Passing 4 arguments to script.sh
 ```
@@ -78,9 +78,10 @@ Numerical comparisons:
 * `-ne` (!=)
 
 String comparisons: 
-*`=`,`==` (equal) 
-*`!=` (not equal) 
-*`-z` (empty string, unary operator)
+* `=`,`==` (equal) 
+* `!=` (not equal) 
+* `-z` (empty string, unary operator)
+
 
 ```sh
 if[ stringVariable ]                    # Empty string, only spaces, or undefined variable return false
