@@ -2,7 +2,7 @@
 
 Remove all items from git index (not working directory or local repo) and then update the Git index while respecting git ignores. Index=cache
 
-````
+````sh
 
 	# Remove all items from git index
 	git rm -r --cached .
