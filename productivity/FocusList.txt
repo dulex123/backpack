@@ -11,3 +11,4 @@
 youtube.com##div#feed
 youtube.com##div#watch-discussion
 youtube.com##div#watch7-sidebar-contents
+youtube.com##div#related
