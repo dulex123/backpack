@@ -1,3 +1,4 @@
+#!/bin/bash
 function echoRed() {
 	echo -e "\033[31m $1"
 }
@@ -67,8 +68,9 @@ echoRed "Create bin in ~/"
 mkdir ~/bin
 
 echoRed "Move dotifles"
-git clone https://github.com/dulex123/backpack
-cp backpack/dotfiles/* ~/
+git clone https://github.pcom/dulex123/backpack
+cp -r backpack/dotfiles/. ~/
 
 echoRed "Move templates"
-cp backpack/templates/* ~/Templates/
+cp -r backpack/templates/. ~/Templates/
+

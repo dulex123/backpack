@@ -25,6 +25,11 @@ Load image from file
 	docker load -i <path to image tar file>
 ```
 
+Connect n terminals
+```
+	docker exec -it <container name> bash
+```
+
 ## Container 
 
 Fetch the whole container, like a snapshot of a regular VM. Saves the OS of course, but also any change you made, any data file written during the container life. This one is more like a traditional backup.
