@@ -1,27 +1,3 @@
-#
-# .bash_aliases file 
-# for setTitle to work, in .bashrc 
-# line PS1 needs to be commented out
-#
-
-#============
-#Aliases
-#============
-
-alias gpom='git push origin master'
-alias sagi='sudo apt-get install'
-alias sagu='sudo apt-get update'
-alias desk='cd ~/Desktop'
-alias ..='cd ..'
-alias ...='cd ../../../'
-alias ....='cd../../../../'
-alias projects='cd ~/Projects'
-alias limundo='mogrify -resize 30% -format jpg *'
-alias gacm='git add . && git commit -m'
-alias gcm='git commit -m'
-alias gacmp=gitAddCommitPushOriginMaster
-
-
 #============
 #Functions
 #============
@@ -39,4 +15,35 @@ gitAddCommitPushOriginMaster() {
 	gpom
 }
 
-alias set-title=setTitle
+
+#============
+#Aliases
+#============
+
+alias gpom='git push origin master'
+alias sagi='sudo apt-get install'
+alias sagu='sudo apt-get update'
+alias ..='cd ..'
+alias ...='cd ../../../'
+alias ....='cd../../../../'
+alias limundo='mogrify -resize 30% -format jpg *'
+alias gacm='git add . && git commit -m'
+alias gcm='git commit -m'
+alias gacmp=gitAddCommitPushOriginMaster
+
+# Locations
+alias desk='cd ~/Desktop'
+alias lab='cd ~/Desktop/lab'
+alias data='cd ~/Desktop/data'
+alias flow='cd ~/Desktop/flow'
+
+# IP
+ipa="dig +short myip.opendns.com @resolver1.opendns.com"
+lipa=""
+
+#Docker
+alias dls='docker ps'
+alias dlsa='docker ps -a'
+
+
+alias stt=setTitle
