@@ -27,3 +27,14 @@ Fork the project, create a new branch, make your changes, and open a pull reques
 
 We use [Clear code](http://introcs.cs.princeton.edu/java/11style/) writing guidelines.
 This tool can convert nicely to pdf [MarkdownToPdf](http://www.markdowntopdf.com/)
+
+# Credits
+
+Released under the [MIT License].<br>
+Authored and maintained by Dušan Josipović.
+
+> [sudo.engineer](http://sudo.engineer) &nbsp;&middot;&nbsp;
+> GitHub [@dulex123](https://github.com/dulex123) &nbsp;&middot;&nbsp;
+> Twitter [@josipovicd](https://twitter.com/josipovicd)
+
+[MIT License]: http://mit-license.org/
