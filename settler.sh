@@ -17,6 +17,9 @@ sudo add-apt-repository ppa:numix/ppa
 echoRed "14. Albert"
 sudo add-apt-repository ppa:nilarimogard/webupd8
 
+echoRed "15. Ubuntu-make"
+sudo add-apt-repository ppa:ubuntu-desktop/ubuntu-make
+
 echoRed "Apt-get update"
 sudo apt-get update
 
@@ -63,6 +66,15 @@ sudo apt-get install virtualbox
 
 echoRed "14. Install Albert"
 sudo apt-get install albert
+
+echoRed "15. Install umake"
+sudo apt-get install ubuntu-make
+
+echoRed "16. Install pychram"
+umake ide pycharm-professional
+
+echoRed "17. Install Clion"
+umake ide clion
 
 echoRed "Create bin in ~/"
 mkdir ~/bin
