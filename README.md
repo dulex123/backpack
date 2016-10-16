@@ -1,7 +1,7 @@
 # README Boilerplate
 
 I use this backpack repo for my software engineering adventures!
-Change this readme as needed.
+Change this readme as needed. Use [Peek](https://github.com/phw/peek) to make gifs for showcase.
 
 ## Installation
 
