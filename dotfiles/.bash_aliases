@@ -46,6 +46,8 @@ lipa=""
 alias dls='sudo docker ps'
 alias dlsa='sudo docker ps -a'
 alias ds='sudo docker start'
+alias da='sudo docker attach'
+alias drn='sudo docker rename'
 
 
 alias stt=setTitle
