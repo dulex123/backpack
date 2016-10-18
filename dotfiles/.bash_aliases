@@ -23,6 +23,7 @@ gitAddCommitPushOriginMaster() {
 alias gpom='git push origin master'
 alias sagi='sudo apt-get install'
 alias sagu='sudo apt-get update'
+alias saar='sudo add-apt-repository'
 alias ..='cd ..'
 alias ...='cd ../../../'
 alias ....='cd../../../../'
@@ -42,8 +43,9 @@ ipa="dig +short myip.opendns.com @resolver1.opendns.com"
 lipa=""
 
 #Docker
-alias dls='docker ps'
-alias dlsa='docker ps -a'
+alias dls='sudo docker ps'
+alias dlsa='sudo docker ps -a'
+alias ds='sudo docker start'
 
 
 alias stt=setTitle
