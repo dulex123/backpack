@@ -33,7 +33,7 @@ This tool can convert nicely to pdf [MarkdownToPdf](http://www.markdowntopdf.com
 Released under the [MIT License].<br>
 Authored and maintained by Dušan Josipović.
 
-> Blog [sudo.engineer](http://sudo.engineer) &nbsp;&middot;&nbsp;
+> Blog [dulex123.github.io](http://dulex123.github.io) &nbsp;&middot;&nbsp;
 > GitHub [@dulex123](https://github.com/dulex123) &nbsp;&middot;&nbsp;
 > Twitter [@josipovicd](https://twitter.com/josipovicd)
 
