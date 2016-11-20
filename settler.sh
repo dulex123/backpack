@@ -94,17 +94,6 @@ sudo apt-get install virtualbox -y
 echoCyan "14. Install Albert"
 sudo apt-get install albert -y
 
-echoCyan "15. Install umake"
-sudo apt-get install ubuntu-make -y
-
-echoCyan "16. Install pychram"
-umake ide pycharm-professional
-
-echoCyan "17. Install Clion"
-umake ide clion
-
-echoCyan "18. Install Intellij IDEA"
-umake ide idea-ultimate
 
 # === Clone dotfiles ===
 
