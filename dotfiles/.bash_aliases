@@ -44,10 +44,14 @@ lipa=""
 
 #Docker
 alias dls='sudo docker ps'
-alias dlsa='sudo docker ps -a'
+alias dlsa="sudo docker ps -a --format 'table {{ .ID }}\t{{ .Names }}\t{{ .Ports }}\t{{ .Image}}' "
+#dlsa --format 'table {{ .ID }}\t{{ .Names }}\t{{ .Ports }}\t{{ .Image}}' #asdfasdfasfd
 alias ds='sudo docker start'
 alias da='sudo docker attach'
 alias drn='sudo docker rename'
+
+alias nds='sudo nvidia-docker start'
+alias nda='sudo nvidia-docker attach'
 
 
 alias stt=setTitle
