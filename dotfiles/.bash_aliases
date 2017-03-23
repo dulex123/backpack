@@ -43,15 +43,14 @@ ipa="dig +short myip.opendns.com @resolver1.opendns.com"
 lipa=""
 
 #Docker
-alias dls='sudo docker ps'
-alias dlsa="sudo docker ps -a --format 'table {{ .ID }}\t{{ .Names }}\t{{ .Ports }}\t{{ .Image}}' "
+alias dls='docker ps'
+alias dlsa="docker ps -a --format 'table {{ .ID }}\t{{ .Names }}\t{{ .Ports }}\t{{ .Image}}' "
 #dlsa --format 'table {{ .ID }}\t{{ .Names }}\t{{ .Ports }}\t{{ .Image}}' #asdfasdfasfd
-alias ds='sudo docker start'
-alias da='sudo docker attach'
-alias drn='sudo docker rename'
-
-alias nds='sudo nvidia-docker start'
-alias nda='sudo nvidia-docker attach'
+alias ds='docker start'
+alias da='docker attach'
+alias drn='docker rename'
+alias drm='docker rm'
+alias drmi='docker rmi'
 
 
 alias stt=setTitle
