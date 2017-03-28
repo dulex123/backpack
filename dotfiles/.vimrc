@@ -32,3 +32,6 @@ set nobackup
 set nowb
 syntax on
 
+"Shortcuts"
+nnoremap <S-j> :tabprevious<CR>
+nnoremap <S-k> :tabnext <CR>
