@@ -1,0 +1,19 @@
+Awesome and capitalized up to 50 chars subject
+ 
+Body that explains what/why the change is implemented rather than how in 72
+chars width.
+ 
+#
+# Subject line should nicely complete the following sentence
+# If applied, this commit will _____________________________
+#
+# Good examples: 
+# + refactor subsystem X for readability
+# + update getting started documentation
+# + release version 1.0.0
+#
+# Bad examples:
+# - fixed bug with Y
+# - changing behavior of X
+# - more fixes for broken stuff 
+#
