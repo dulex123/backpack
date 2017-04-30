@@ -100,9 +100,8 @@ sudo apt-get install albert -y
 echoCyan "Create bin in ~/"
 mkdir ~/bin
 
-echoCyan "Move dotifles"
-git clone https://github.pcom/dulex123/backpack
-cp -r backpack/dotfiles/. ~/
+echoCyan "Create dotfiles folder"
+sh dotfiles.sh
 
 echoCyan "Move templates"
 cp -r backpack/templates/. ~/Templates/
