@@ -15,9 +15,20 @@ call plug#end()
 
 
 let mapleader=","
+set mouse=a
 
 filetype plugin on
 let g:limelight_conceal_ctermfg = 'gray'
+
+" ==== gvim ===="
+" use ctrl+c, ctrl+v .."
+source $VIMRUNTIME/mswin.vim
+behave mswin
+set guifont=Monospace\ 12
+:set guioptions-=T  "remove toolbar
+:set guioptions-=r  "remove right-hand scroll bar
+:set guioptions-=L  "remove left-hand scroll bar
+
 
 " ===== AIRLINE ====== "
     let g:airline_powerline_fonts = 1
@@ -50,12 +61,13 @@ set number
 
 
 "Shortcuts"
-    nmap <S-j> :bprevious<CR>
-    nmap <S-k> :bnext <CR>
+    nmap <C-j> :bprevious<CR>
+    nmap <C-k> :bnext <CR>
     nmap <leader>t :enew <cr>
     nmap <leader>w :bp <BAR> bd #<CR>
     nmap <leader>q :xa <CR>
     nmap <leader>s :w <CR>
+    nmap <silent> <C-n> :NERDTreeToggle<cr>
     
 "Indentation"
     set smarttab
