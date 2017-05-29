@@ -3,7 +3,11 @@
 
 Dockerfile is used to build an image. Container is *started from image*. Changes during the life of container(s) *don't* affect the image.
 
-(Awesome docker readme)[https://github.com/wsargent/docker-cheat-sheet/blob/master/README.md]
+[Awesome docker readme](https://github.com/wsargent/docker-cheat-sheet/blob/master/README.md)
+
+[How to move default docker dir](https://linuxconfig.org/how-to-move-docker-s-default-var-lib-docker-to-another-directory-on-ubuntu-debian-linux)
+
+
 
 
 ## Image
