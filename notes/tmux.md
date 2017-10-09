@@ -1,9 +1,8 @@
 #Tmux commands
-
--   `Ctrl-A`: go to the beginning of line
--   `Ctrl-E`: go to the end of line
--   `Alt-B`: skip one word backward
--   `Alt-F`: skip one word forward
--   `Ctrl-U`: delete to the beginning of line
--   `Ctrl-K`: delete to the end of line
--   `Alt-D`: delete to the end of word
+- `Ctrl+b "` - split pane horizontally.
+- `Ctrl+b %` - split pane vertically.
+- `Ctrl+b arrow key` - switch pane.
+- `Hold Ctrl+b` - don't release it and hold one of the arrow keys - resize pane.
+- `Ctrl+b c` - (c)reate a new window.
+- `Ctrl+b n` - move to the (n)ext window.
+- `Ctrl+b p` - move to the (p)revious window.
