@@ -1,4 +1,4 @@
-#Tmux commands
+# Tmux commands
 - `Ctrl+b "` - split pane horizontally.
 - `Ctrl+b %` - split pane vertically.
 - `Ctrl+b arrow key` - switch pane.
