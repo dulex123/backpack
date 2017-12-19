@@ -2,5 +2,9 @@
     "apt-get":[
         "gimp",
         "inkscape"
-    ]    
+    ],
+    "folders": {
+        "templates": "Templates",
+        "": ""
+    }   
 }
