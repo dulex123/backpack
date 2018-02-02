@@ -1,6 +1,6 @@
 {
     "apt-get" : [
-        "gimp",
+        "gimp"
     ],
     "folders": {
         "bin": "bin"
