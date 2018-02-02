@@ -1,0 +1,4 @@
+#!/bin/bash
+# Delete all images
+
+sudo docker rmi -f $(sudo docker images -q)
