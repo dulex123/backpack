@@ -1,9 +1,8 @@
 {
-    "apt-get":[
-        "gimp",
-        "inkscape"
-    ],
     "folders": {
-        "templates": "Templates"
+        "bin": "bin"
+    },
+    "files": {
+        "": "Templates"
     }
 }
