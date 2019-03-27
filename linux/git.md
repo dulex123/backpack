@@ -1,7 +1,10 @@
 # Delete commit 
 
 ````sh
+# Remove last 2 commits
 $ git rebase -i HEAD~2
+
+# Push to master without making a commit
 $ git push origin +master
 ````
 
