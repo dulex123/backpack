@@ -1,0 +1,2 @@
+# Remove conda virtual environment venv
+conda remove --name venv --all
