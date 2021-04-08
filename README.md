@@ -4,8 +4,8 @@
 Video/GIF/Code that showcases the usage of the package. In the ideal case, people should be able to infer from your example how your library works.
 
 ## Logitech k811
-[Use this to remap RSHIFT to UP on Ubuntu 20.04](http://www.fascinatingcaptain.com/projects/remap-keyboard-keys-for-ubuntu/)
-[Use this to remap EJECT to DELETE](https://askubuntu.com/questions/1019276/fake-key-code-for-remapped-keyboard-keys/1019659#1019659)
+[Use this to remap RSHIFT to UP on Ubuntu 20.04](http://www.fascinatingcaptain.com/projects/remap-keyboard-keys-for-ubuntu/)  
+[Use this to remap EJECT to DELETE](https://askubuntu.com/questions/1019276/fake-key-code-for-remapped-keyboard-keys/1019659#1019659)  
 Basically this:
 ```bash
 sudo echo "evdev:input:b0005v046DpB317e0900*
