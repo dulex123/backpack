@@ -4,8 +4,7 @@
 Video/GIF/Code that showcases the usage of the package. In the ideal case, people should be able to infer from your example how your library works.
 
 ## Info
-I use this backpack repo for my software engineering adventures!
-Change this readme as needed. Use [Peek](https://github.com/phw/peek) to make gifs for showcase.
+[Use this to remap RSHIFT to UP on Ubuntu 20.04](http://www.fascinatingcaptain.com/projects/remap-keyboard-keys-for-ubuntu/)
 
 ## Installation
 
