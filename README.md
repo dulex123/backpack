@@ -6,8 +6,8 @@ Video/GIF/Code that showcases the usage of the package. In the ideal case, peopl
 ## Logitech k811
 [Use this to remap RSHIFT to UP on Ubuntu 20.04](http://www.fascinatingcaptain.com/projects/remap-keyboard-keys-for-ubuntu/)  
 [Use this to remap EJECT to DELETE](https://askubuntu.com/questions/1019276/fake-key-code-for-remapped-keyboard-keys/1019659#1019659)  
-Basically this:
 ```bash
+# Remap EJECT to DELETE for Logitech k811
 sudo echo "evdev:input:b0005v046DpB317e0900*
  KEYBOARD_KEY_c00b8=delete" > /etc/udev/hwdb.d/65-keyboard-custom.hwdb
  
